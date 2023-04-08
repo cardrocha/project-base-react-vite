@@ -1,10 +1,13 @@
-import './App.css'
+import { Provider } from "react-redux"
+import { ListaDeContatos } from "./components/ListaDeContatos"
+
+import store from "./components/store"
 
 function App() {
   return (
-    <div className="App">
-      <h1>Olá mundo!</h1>
-    </div>
+    <Provider store={store}>
+      <ListaDeContatos />
+    </Provider>
   )
 }
 
