@@ -9,15 +9,21 @@ const initialState: ContatosState = {
   itens: [
     {
       id: 1,
-      nome: 'Ricardo Rocha',
-      telefone: '21 997924360',
-      email: 'cardrocharj@gmail.com'
+      nome: 'Ana Vitória',
+      telefone: '41 997725321',
+      email: 'vitoria@ig.com.br'
     },
     {
       id: 2,
-      nome: 'Victor Araújo',
-      telefone: '21 997924360',
-      email: 'victoraraujoborba@gmail.com'
+      nome: 'Bruna Silva',
+      telefone: '11 992534111',
+      email: 'bruhSilva@hotmail.com'
+    },
+    {
+      id: 3,
+      nome: 'Leandro Carlos',
+      telefone: '21 3536978',
+      email: 'leoCarlos@gmail.com'
     }
   ]
 }
